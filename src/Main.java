@@ -12,9 +12,9 @@ public class Main {
 
         private static Number recursions = new Number(1, 2, 3, 4, 5);
         public static void main(String[] args) throws InterruptedException {
-            Scanner scanner = new Scanner(System.in);System.out.println("Welcome to the convoluted number multiplier!");
-            System.out.println("Please input the first number:");String firstInput = scanner.nextLine();int firstNumber = parseInput(firstInput);
-            System.out.println("Please input the second number:");String secondInput = scanner.nextLine();int secondNumber = parseInput(secondInput);
+            Scanner scanner = new Scanner(System.in);System.out.println("welcom !!!!!!!!!!!"); 
+            System.out.println("number 1:");String firstInput = scanner.nextLine();int firstNumber = parseInput(firstInput);
+            System.out.println("number 2:");String secondInput = scanner.nextLine();int secondNumber = parseInput(secondInput);
             int result = multiplyNumbers(new Number(firstNumber/10000, (firstNumber%10000)/1000, (firstNumber%1000)/100, (firstNumber%100)/10, firstNumber%10), new Number(secondNumber/10000, (secondNumber%10000)/1000, (secondNumber%1000)/100, (secondNumber%100)/10, secondNumber%10));
             System.out.println("The result of multiplying " + firstNumber + " and " + secondNumber + " is: " + result);}
 
